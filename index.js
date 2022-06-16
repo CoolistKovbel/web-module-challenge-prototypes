@@ -93,10 +93,10 @@ Baby.prototype.play = function(){
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. When "this" is defined in the global scope the object will be in the window
+  2. When "this" is defined inside an obj and used within the object function its considered implicet binding
+  3. When "this" is definied inside a constructor function its defined as New Binding
+  4. When we call the object function using the .call and .apply the "this" keyword is then considerd explicit binding
 */
 
 ///////// END OF CHALLENGE /////////
